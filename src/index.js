@@ -1,5 +1,5 @@
 import { setupServer } from './server.js';
-import { initMongoConnection } from './db/initMangoDB.js';
+import { initMongoConnection } from './db/initMongoDB.js';
 
 const startServer = () => {
   setupServer();
